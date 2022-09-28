@@ -1,0 +1,180 @@
+.scrollSection {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bookSection {
+    height: 100%;
+}
+
+.wrapper {
+    position: relative;
+    margin-top: 12px;
+}
+
+i.bi-calendar3 {
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+
+.dateInput {
+    width: 210px;
+    padding-left: 20px;
+    text-align: center;
+    border: 0.5px solid #75665a;
+    border-radius: 5px;
+    height: 38px;
+}
+
+.datepicker {
+    height: 50px;
+}
+
+.persons {
+    width: 210px;
+    margin: 0;
+    padding: 0;
+}
+
+.personsInput {
+    margin: 0;
+    padding: 0;
+    margin-top: 12px;
+}
+
+.buttonBook {
+    border: 1px solid gray;
+    border-radius: 0;
+    background-color: #75665a;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+#child-location {
+    margin-top: 6px;
+}
+
+.rightBorder {
+    border-right: 0.7px solid #75665a;
+}
+
+.rightTop {
+    border-bottom: 0.7px solid #75665a;
+    height: 60px;
+}
+
+.leftTop {
+    border-bottom: 0.7px solid #75665a;
+    height: 60px;
+}
+
+.topText {
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+.noError {
+    width: 210px;
+    height: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.error {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    background-color: #cc0000;
+    border-radius: 5px;
+    width: 210px;
+    height: 75px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.apartmentDiv {
+    background-color: #F8F8F8;
+    width: 80%;
+    height: 260px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.borderBottom {
+    border-bottom: 0.7px solid #75665a;
+}
+
+.roomImages {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .topText {
+        text-align: center;
+    }
+
+    .noError {
+        height: 0;
+        margin: 0;
+    }
+
+    .scrollSection {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bookSection {
+        width: 210px;
+        margin: 0 auto;
+    }
+
+    .rightBorder {
+        border: 0;
+    }
+
+    .persons {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .apartmentDiv {
+        width: 80%;
+        height: 500px;
+    }
+
+    .roomImages {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .apartmentDiv {
+        width: 80%;
+        height: 300px;
+    }
+
+    .roomImages {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .apartmentDiv {
+        height: 250px;
+    }
+}

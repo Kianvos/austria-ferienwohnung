@@ -1,0 +1,375 @@
+.navbar-brand {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.logoNavbar {
+    background-color: lightblue;
+    border-bottom-left-radius: 30px;
+    height: 170px;
+    width: 155px;
+}
+
+.logo {
+    margin: auto;
+    display: flex;
+    width: 75%;
+}
+
+.rightNav {
+    width: 45%;
+}
+
+.navItemRight {
+    min-width: 21%;
+    text-align: center;
+}
+
+.flag {
+    width: 16%;
+    text-align: right;
+}
+
+.carouselBottom {
+    width: 100%;
+    position: relative;
+    background-color: rgba(108, 122, 137, 0.6);
+    height: 120px;
+    margin-top: -120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel-indicators li {
+    display: none;
+}
+
+.buttons {
+    position: relative;
+    top: 25px;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'canterbold';
+    color: white;
+}
+
+.requestButton {
+    background-color: #75665a;
+}
+
+.requestButton:hover {
+    background-color: green;
+}
+
+.bookingButton {
+    background-color: lightsalmon;
+}
+
+.bookingButton:hover {
+    background-color: orange;
+}
+
+.included {
+    position: relative;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.includedWidth {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.iconInclude {
+    font-size: 32px;
+}
+
+.colItem {
+    top: 50%;
+}
+
+.textDiv {
+    background-color: #F8F8F8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.textDivWidth {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.textBody {
+    font-size: 18px;
+}
+
+.textFooter {
+    font-size: 16px;
+}
+
+.pros {
+    width: 60%;
+    margin: 40px auto;
+}
+
+li {
+    margin-top: 14px;
+}
+
+.footerDiv {
+    background-color: lightblue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 0.7px solid #75665a;
+    margin: 0 !important;
+}
+
+.footerCol {
+    text-align: center;
+    color: white;
+    padding: 0 !important;
+}
+
+.aRemoveStyle {
+    color: white;
+    text-decoration: none;
+}
+
+.aRemoveStyle:hover {
+    color: orange;
+}
+
+.informationText {
+    margin: 0 auto;
+    width: 35%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.informationHeader {
+    font-family: 'black_jackregular';
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.imageInformation {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rightInformation {
+    background-color: #F8F8F8;
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.imageTest {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.text {
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.fitParagraph {
+    font-size: 1vw
+}
+
+@media only screen and (max-width: 1200px) {
+    .buttons {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .rightNav {
+        width: 75%;
+    }
+
+    .navItemRight {
+        min-width: 28%;
+    }
+
+    .flag {
+        width: 16%;
+    }
+
+    .logoNavbar {
+        border-bottom-left-radius: 20px;
+        height: 132px;
+        width: 120px;
+    }
+
+    .logo {
+        margin: auto;
+        width: 80%;
+        display: flex;
+    }
+
+    .carouselBottom {
+        height: 100px;
+        margin-top: -100px;
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .fitParagraph {
+        font-size: 16px
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .text {
+        width: 75%;
+    }
+    .footerDiv {
+        padding-top: 0;
+    }
+
+    .footerCol {
+        margin-top: 25px;
+    }
+
+    .rightNav {
+        width: 65%;
+    }
+
+    .navItemRight {
+        min-width: 28%;
+        text-align: left;
+    }
+
+    .flag {
+        width: 16%;
+    }
+
+    .logoNavbar {
+        border-bottom-left-radius: 20px;
+        height: 110px;
+        width: 100px;
+    }
+
+    .logo {
+        margin: auto;
+        width: 80%;
+        display: flex;
+    }
+
+    .navbar-brand {
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        padding: 0 !important;
+        text-align: center;
+    }
+
+    .carouselBottom {
+        height: 80px;
+        margin-top: -80px;
+    }
+
+    .buttons {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        top: 20px;
+    }
+
+    .includedWidth {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .iconInclude {
+        font-size: 20px;
+    }
+
+    .textDivWidth {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .pros {
+        width: 75%;
+        margin: 15px auto;
+    }
+
+    li {
+        margin-top: 8px;
+    }
+    .informationText {
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .imageInformation {
+        width: 80%;
+    }
+    .rightInformation {
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .textFooter {
+        font-size: 12px;
+    }
+
+    .carouselBottom {
+        height: 60px;
+        margin-top: -60px;
+    }
+
+    .buttons {
+        width: 150px;
+        height: 30px;
+        top: 15px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .carouselBottom {
+        height: 40px;
+        margin-top: -40px;
+    }
+
+    .buttons {
+        width: 85px;
+        height: 30px;
+        font-size: 10px;
+        top: 5px;
+    }
+
+    .includedWidth {
+        font-size: 9px;
+    }
+
+    .iconInclude {
+        font-size: 14px;
+    }
+}

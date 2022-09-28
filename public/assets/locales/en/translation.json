@@ -1,0 +1,84 @@
+{
+	"footer": {
+		"address": "Address",
+		"austria": "Austria",
+		"contact": "Contact",
+		"information": {
+			"ski_map": "Ski map",
+			"title": "Information"
+		}
+	},
+	"homepage": {
+		"booking": "Booking",
+		"included": {
+			"Breakfast": "",
+			"Furnished": "",
+			"airconditioning": "Air conditioning",
+			"breakfast": "Breakfast",
+			"furnished": "Furnished",
+			"parking_area": "Parking area",
+			"wifi": "Wifi"
+		},
+		"pro": {
+			"1": "Bus stop 150 meters away.",
+			"2": "This area is very snow-sure.",
+			"3": "There are many activities to do in summer and winter.",
+			"4": "In the summer it stays nice and cool thanks to the air conditioning.",
+			"5": "In the morning, a delicious breakfast awaits you.",
+			"title": "Why with us?"
+		},
+		"request": "Request",
+		"text": {
+			"body": "We have three four-person apartments in Fiss. All our apartments have a private bathroom and air conditioning. In the morning there is an extensive breakfast buffet for all our guests.",
+			"header": "{{haus}} - apartments in Fiss"
+		}
+	},
+	"navbar": {
+		"apartments": "Apartments",
+		"logo": "gb",
+		"summer": "Summer",
+		"winter": "Winter"
+	},
+	"welcome": {
+		"title": "Welcome to {{website}}"
+	},
+	"winter": {
+		"information": {
+			"title": "Winter in Serfaus-Fiss-Ladis",
+			"text": "The Serfaus-Fiss-Ladis family ski area is fun for all ages. You can do various activities in the winter, so there is something for everyone. On the slopes and in the villages you can enjoy a delicious meal at the cozy restaurants."
+		},
+		"cross_country_skiing": {
+			"text_1": "There are 30 kilometers of trails to be found here. These trails are groomed daily. Of the 30 kilometers of trails, 8.4 kilometers are at an altitude of 2000 meters.",
+			"title": "Cross-country skiing"
+		},
+		"ski": {
+			"text_1": "There are 214 kilometers of prepared slopes in the Serfaus-Fiss-Ladis ski area. The ski area is fun for every level. There are mogul slopes, fun parks and children's arenas.",
+			"text_2": "Due to the altitude, it is very snow-sure here. The ski area opens in December and closes in April.",
+			"title": "Skiing"
+		},
+		"sledding": {
+			"text_1": "You can also toboggan here. In Fiss there is a toboggan run with a length of 4 kilometers, during the descent you descend 440 meters. There is also an opportunity to toboggan on a lighted track on Tuesday evenings.",
+			"text_2": "You can also toboggan in the neighboring village of Serfaus. This track is also 4 kilometers long and here you even descend more than 500 meters. Here you can go down on a lit track on Wednesday evenings",
+			"title": "Sledding"
+		}
+	},
+	"summer": {
+		"information": {
+			"title": "Summer in Serfaus-Fiss-Ladis",
+			"text": "In summer, the gondola lifts to the mountain peaks are also open. The view when you are on top of the mountain is fantastic. On top of the mountains are experience trails where you can also walk with your children. You can also go down by mountain bike, there are trails for beginners and more advanced cyclists."
+		},
+		"hiking": {
+			"title": "Hiking",
+			"text_1": "The mountains around Fiss have an altitude of up to about 2800 meters. There are many hiking trails here. Walk along the marked trails to a viewing platform or to one of the clear mountain lakes.",
+			"text_2": "There are several experience trails for children. You can follow the story through an app on your phone. On the route there are playgrounds and cable cars where children can have fun."
+		},
+		"mountainbike": {
+			"title": "Mountain biking",
+			"text_1": "You can definitely go mountain biking here. There are wider paths for beginners, you can cycle up or take the lift up. There is also a bike park with 9 downhill trails, there are easy descents and descents for experts."
+		},
+		"funpark": {
+			"title": "Fun park",
+			"text_1": "For children and teenagers there is a small amusement park in Fiss. There are a few bigger attractions here: \"Fisser Flitzer\" an summer toboggan run, the \"Fisser Flieger\" and the \"Skyswing\". There are also a few smaller attractions: tubing track, XXL sandbox, Berta's air slide, XXL trampoline, diving platform, slackline park and the snow factory."
+		}
+	}
+}

@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+
+import NavigationBar from './assets/components/navbar'
+import Homepage from './assets/components/homepage';
+import Footer from './assets/components/footer'
+import Winter from './assets/components/winter'
+import Summer from './assets/components/summer'
+import Apartments from './assets/components/apartments'
+import Apartment from './assets/components/apartment'
+
+
+function BasicLayout() {
+  return (
+    <>
+      <NavigationBar />
+      <Outlet />
+      <Footer />
+    </>
+  )
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<BasicLayout />}>
+          <Route index element={<Homepage />} />
+          <Route path="winter" element={<Winter />} />
+          <Route path="summer" element={<Summer />} />
+          <Route path="apartments" element={<Apartments />} />
+          <Route path="apartment/:roomId" element={<Apartment />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
