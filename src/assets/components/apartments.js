@@ -198,10 +198,10 @@ const Apartments = () => {
                                         </Col>
                                         <Col md={3} className="d-none d-md-block">
                                             <h4>Zwölferkopf</h4>
-                                            <p><i class="bi bi-person-fill" /> 4 personen</p>
-                                            <p><i class="bi bi-wifi" /> Gratis WiFi</p>
-                                            <p><i class="bi bi-egg" /> Ontbijt</p>
-                                            <p><i class="bi bi-fan" /> Airco</p>
+                                            <p><i className="bi bi-person-fill" /> 4 personen</p>
+                                            <p><i className="bi bi-wifi" /> Gratis WiFi</p>
+                                            <p><i className="bi bi-egg" /> Ontbijt</p>
+                                            <p><i className="bi bi-fan" /> Airco</p>
                                         </Col>
                                         <Col md={3}>
                                             <h4>Serfaus</h4>
@@ -217,10 +217,10 @@ const Apartments = () => {
                                         </Col>
                                         <Col md={3} className="d-none d-md-block">
                                             <h4>Hexenkopf</h4>
-                                            <p><i class="bi bi-person-fill" /> 4 personen</p>
-                                            <p><i class="bi bi-wifi" /> Gratis WiFi</p>
-                                            <p><i class="bi bi-egg" /> Ontbijt</p>
-                                            <p><i class="bi bi-fan" /> Airco</p>
+                                            <p><i className="bi bi-person-fill" /> 4 personen</p>
+                                            <p><i className="bi bi-wifi" /> Gratis WiFi</p>
+                                            <p><i className="bi bi-egg" /> Ontbijt</p>
+                                            <p><i className="bi bi-fan" /> Airco</p>
                                         </Col>
                                         <Col md={3}>
                                             <h4>Serfaus</h4>
@@ -236,10 +236,10 @@ const Apartments = () => {
                                         </Col>
                                         <Col md={3} className="d-none d-md-block">
                                             <h4>Alpkopf</h4>
-                                            <p><i class="bi bi-person-fill" /> 4 personen</p>
-                                            <p><i class="bi bi-wifi" /> Gratis WiFi</p>
-                                            <p><i class="bi bi-egg" /> Ontbijt</p>
-                                            <p><i class="bi bi-fan" /> Airco</p>
+                                            <p><i className="bi bi-person-fill" /> 4 personen</p>
+                                            <p><i className="bi bi-wifi" /> Gratis WiFi</p>
+                                            <p><i className="bi bi-egg" /> Ontbijt</p>
+                                            <p><i className="bi bi-fan" /> Airco</p>
                                         </Col>
                                         <Col md={3}>
                                             <p>Vanaf 49 euro per week</p>
