@@ -1,0 +1,94 @@
+{
+	"footer": {
+		"address": "Adres",
+		"austria": "Oostenrijk",
+		"contact": "Contact",
+		"information": {
+			"ski_map": "Pistekaart",
+			"title": "Informatie"
+		}
+	},
+	"homepage": {
+		"booking": "Boeken",
+		"included": {
+			"airconditioning": "Airconditioning",
+			"breakfast": "Ontbijt",
+			"furnished": "Bemeubeld",
+			"parking_area": "Parkeerplaats",
+			"wifi": "Wifi"
+		},
+		"pro": {
+			"1": "Bushalte op 150 meter.",
+			"2": "Dit gebied is zeer sneeuwzeker.",
+			"3": "Er zijn veel activiteiten te doen in de zomer en in de winter.",
+			"4": "In de zomer blijft het lekker koel dankzij de airco.",
+			"5": "S'ochtends staat er een heerlijk onbijt voor u klaar.",
+			"title": "Waarom bij ons?"
+		},
+		"request": "Verzoek",
+		"text": {
+			"body": "Wij hebben drie vierpersoons appartementen in Fiss. In al onze appartementen is een eigen badkamer en airco te vinden. S'ochtends is er voor al onze gasten een uitgebreid ontbijtbuffet.",
+			"header": "{{haus}} - appartementen in Fiss"
+		}
+	},
+	"navbar": {
+		"apartments": "Appartementen",
+		"logo": "nl",
+		"summer": "Zomer",
+		"winter": "Winter",
+		"about-me": "Over mij"
+	},
+	"welcome": {
+		"title": "Welkom bij {{website}}"
+	},
+	"winter": {
+		"information": {
+			"title": "Winter in Serfaus-Fiss-Ladis",
+			"text": "Voor alle leeftijden is het familieskigebied Serfaus-Fiss-Ladis leuk. Je kan er in de winter verschillende activiteiten doen, dus voor ieder wat wils. Op de pistes en in de dorpen kan je heerlijk eten bij de gezellige restaurantjes."
+		},
+		"cross_country_skiing": {
+			"text_1": "Er zijn hier 30 kilometer aan loipes te vinden. Deze loipes worden dagelijks opnieuw geprepareerd. Van de 30 kilometer loipes ligt 8.4 kilometer op 2000 meter hoogte.",
+			"title": "Langlaufen"
+		},
+		"ski": {
+			"text_1": "In het skigebied Serfaus-Fiss-Ladis is 214 kilometer geprepareerde piste te vinden. Het skigebied is voor elk niveau leuk. Er zijn buckelpistes, funparks en kinderarena's.",
+			"text_2": "Door de hoogte is het hier zeer sneeuwzeker. Het skigebied gaat in december open en sluit in april.",
+			"title": "Skiën"
+		},
+		"sledding": {
+			"text_1": "Rodelen kan je hier ook. In Fiss ligt een rodelbaan met een lengte van 4 kilometer, tijdens de afdaling daal je 440 meter. Er is hier ook een mogelijkheid om op dinsdagavond te rodelen op een verlichte baan.",
+			"text_2": "Ook kan je rodelen in het naastgelegen dorp Serfaus. Deze baan is ook 4 kilometer lang en hier daal je zelfs meer dan 500 meter. Hier kan je op woensdagavond op een verlichte baan naar beneden.",
+			"title": "Rodelen"
+		}
+	},
+	"summer": {
+		"information": {
+			"title": "Zomer in Serfaus-Fiss-Ladis",
+			"text": "In de zomer zijn de gondelliften naar de bergtoppen ook open. De uitzicht als je boven op de berg bent is fantastisch. Boven op de bergen zijn belevingspaden te vinden waar je ook met uw kinderen kan wandelen. Ook kan je met de mountainbike naar beneden, er zijn hier paden voor beginners en de meer gevorderde fietsers te vinden."
+		},
+		"hiking": {
+			"title": "Wandelen",
+			"text_1": "De bergen rondom Fiss hebben een hoogte tot ongeveer 2800 meter. Hierop zijn veel wandelpaden te vinden. Loop via de bewegwijzerde paden naar een uitkijkplatform of naar één van de heldere bergmeren.",
+			"text_2": "Voor kinderen zijn er meerdere belevingspaden. Doormiddel van een app op je telefoon kan je het verhaal volgen. Op de route liggen speeltuinen en kabelbanen waar kinderen zich kunnen vermaken."
+		},
+		"mountainbike": {
+			"title": "Mountainbiken",
+			"text_1": "Mountainbiken kan hier zeker weten. Er zijn bredere paden voor de beginners, deze kan u omhoog fietsen of u gaat met de lift omhoog. Ook is er een bikepark met 9 downhill trails, er zijn makkelijke afdalingen en afdalingen voor experts."
+		},
+		"funpark": {
+			"title": "Funpark",
+			"text_1": "Voor kinderen en tieners is er een klein pretpark in Fiss. Er zijn hier een paar grotere attracties: \"Fisser Flitzer\" een zomerrodelbaan, de \"Fisser Flieger\" en de \"Skyswing\". Er zijn ook een paar kleinere attracties die leuk zijn: tubingbaan, XXL-zandbak, Berta's luchtglijbaan, XXL-trampoline, duikplatform, slacklinepark en de sneeuwfabriek."
+		}
+	},
+	"apartments": {
+		"our_apartments": "Onze appartementen",
+		"date": "Datum",
+		"check-in": "Inchecken",
+		"check-out": "Uitchecken",
+		"adults": "Volwassenen",
+		"child": "Kind",
+		"age": "Leeftijd",
+		"childs": "Kinderen",
+		"search": "Zoeken"
+	}
+}

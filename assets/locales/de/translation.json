@@ -1,0 +1,96 @@
+{
+	"footer": {
+		"address": "die Adresse",
+		"austria": "Österreich",
+		"contact": "Kontakt",
+		"information": {
+			"ski_map": "Skikarte",
+			"title": "Informationen"
+		}
+	},
+	"homepage": {
+		"booking": "Buchen",
+		"included": {
+			"Breakfast": "",
+			"Furnished": "",
+			"airconditioning": "Klimaanlage",
+			"breakfast": "Frühstück",
+			"furnished": "Möbliert",
+			"parking_area": "Parkplatz",
+			"wifi": "Wifi"
+		},
+		"pro": {
+			"1": "Bushaltestelle 150 Meter entfernt.",
+			"2": "Dieses Gebiet ist sehr schneesicher.",
+			"3": "Es gibt viele Aktivitäten im Sommer und im Winter.",
+			"4": "Im Sommer bleibt es schön kühl dank der Klimaanlage.",
+			"5": "Am Morgen wartet ein leckeres Frühstück auf Sie.",
+			"title": "Warum bei uns?"
+		},
+		"request": "Anfragen",
+		"text": {
+			"body": "Wir haben drei Vier-Personen-Appartements in Fiss. Alle unsere Apartments verfügen über ein eigenes Bad und Klimaanlage. Am Morgen gibt es für alle unsere Gäste ein reichhaltiges Frühstücksbuffet.",
+			"header": "{{haus}} - wohnungen in Fiss"
+		}
+	},
+	"navbar": {
+		"apartments": "Wohnungen",
+		"logo": "de",
+		"summer": "Sommer",
+		"winter": "Winter",
+		"about-me": "Über mich"
+	},
+	"welcome": {
+		"title": "Willkommen zu {{website}}"
+	},
+	"winter": {
+		"information": {
+			"title": "Winter in Serfaus-Fiss-Ladis",
+			"text": "Das Familienskigebiet Serfaus-Fiss-Ladis ist ein Spaß für Groß und Klein. Im Winter können Sie verschiedene Aktivitäten unternehmen, sodass für jeden etwas dabei ist. Auf den Pisten und in den Dörfern können Sie in den gemütlichen Restaurants ein köstliches Essen genießen."
+		},
+		"cross_country_skiing": {
+			"text_1": "Hier gibt es 30 Kilometer Loipen zu entdecken. Diese Loipen werden täglich präpariert. Von den 30 Loipenkilometern liegen 8,4 Kilometer auf einer Höhe von 2000 Metern.",
+			"title": "Langlaufen"
+		},
+		"ski": {
+			"text_1": "Im Skigebiet Serfaus-Fiss-Ladis gibt es 214 Kilometer präparierte Pisten. Das Skigebiet ist ein Spaß für jedes Niveau. Es gibt Buckelpisten, Funparks und Kinderarenen.",
+			"text_2": "Aufgrund der Höhenlage ist es hier sehr schneesicher. Das Skigebiet öffnet im Dezember und schließt im April.",
+			"title": "Ski fahren"
+		},
+		"sledding": {
+			"text_1": "Auch Rodeln ist hier möglich. In Fiss gibt es eine Rodelbahn mit einer Länge von 4 Kilometern, bei der Abfahrt geht es 440 Meter bergab. Am Dienstagabend besteht auch die Möglichkeit, auf einer beleuchteten Bahn zu rodeln.",
+			"text_2": "Rodeln können Sie auch im Nachbarort Serfaus. Auch diese Strecke ist 4 Kilometer lang und hier steigen Sie sogar mehr als 500 Höhenmeter ab. Hier kann man am Mittwochabend auf einer beleuchteten Bahn hinabfahren.",
+			"title": "Rodeln"
+		}
+	},
+	"summer": {
+		"information": {
+			"title": "Sommer in Serfaus-Fiss-Ladis",
+			"text": "Im Sommer sind auch die Gondelbahnen zu den Berggipfeln geöffnet. Die Aussicht, wenn Sie oben auf dem Berg sind, ist fantastisch. Oben auf den Bergen befinden sich Erlebnispfade, auf denen Sie auch mit Ihren Kindern wandern können. Sie können auch mit dem Mountainbike hinunterfahren, es gibt Strecken für Anfänger und Fortgeschrittene."
+		},
+		"hiking": {
+			"title": "Wandeln",
+			"text_1": "Die Berge rund um Fiss haben eine Höhe von bis zu etwa 2800 Metern. Hier gibt es viele Wanderwege. Wandern Sie auf markierten Wegen zu einer Aussichtsplattform oder zu einem der klaren Bergseen.",
+			"text_2": "Für Kinder gibt es mehrere Erlebnispfade. Sie können die Geschichte über eine App auf Ihrem Telefon verfolgen. Auf der Strecke gibt es Spielplätze und Seilbahnen, wo sich Kinder vergnügen können."
+		},
+		"mountainbike": {
+			"title": "Mountainbiken",
+			"text_1": "Mountainbiken kann man hier auf jeden Fall. Für Anfänger gibt es breitere Wege, Sie können mit dem Fahrrad oder mit dem Lift hinauffahren. Außerdem gibt es einen Bikepark mit 9 Downhill-Strecken, es gibt leichte Abfahrten und Abfahrten für Könner."
+		},
+		"funpark": {
+			"title": "Funpark",
+			"text_1": "Für Kinder und Jugendliche gibt es in Fiss einen kleinen Freizeitpark. Hier gibt es ein paar größere Attraktionen: \"Fisser Flitzer\" die Sommerrodelbahn, den \"Fisser Flieger\" und den \"Skyswing\". Dazu kommen ein paar kleinere Attraktionen: Tubingbahn, XXL-Sandkasten, Bertas Luftrutsche, XXL-Trampolin, Sprungturm, Slackline-Park und die Schneefabrik."
+		}
+	},
+	"apartments": {
+		"our_apartments": "Unsere Wohnungen",
+		"date": "Datum",
+		"check-in": "Einchecken",
+		"check-out": "Auschecken",
+		"adults": "Erwachsene",
+		"child": "Kind",
+		"age": "Alter",
+		"childs": "Kinder",
+		"search": "Suchen"
+	}
+}
