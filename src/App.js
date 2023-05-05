@@ -8,6 +8,7 @@ import Winter from './assets/components/winter'
 import Summer from './assets/components/summer'
 import Apartments from './assets/components/apartments'
 import Apartment from './assets/components/apartment'
+import Info from './assets/components/info';
 
 
 function BasicLayout() {
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<BasicLayout />}>
           <Route index element={<Homepage />} />
+          <Route path="info" element={<Info />} />
           <Route path="winter" element={<Winter />} />
           <Route path="summer" element={<Summer />} />
           <Route path="apartments" element={<Apartments />} />

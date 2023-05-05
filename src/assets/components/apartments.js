@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, Button } from "react";
+import { useState } from "react";
 import DatePicker from "react-datepicker"
 import "react-datepicker/dist/react-datepicker.css";
 import Select from 'react-select'
@@ -9,7 +9,6 @@ import { Row } from "react-bootstrap";
 import Col from 'react-bootstrap/Col';
 
 import houseBackground from '../img/house_background.jpg'
-import { Data } from "@react-google-maps/api";
 import { useNavigate } from "react-router-dom";
 
 import room_1 from '../img/room-1/img_1.jpg'
@@ -17,19 +16,21 @@ import room_2 from '../img/room-1/img_2.jpg'
 import room_3 from '../img/room-1/img_3.jpg'
 
 const CustomCheckInDate = (props) => {
+    const { t } = useTranslation();
     return (
         <div className="wrapper">
             <i onClick={props.onClick} aria-hidden="true" className="bi bi-calendar3"></i>
-            <input onClick={props.onClick} className="dateInput" value={props.value} readOnly={true} placeholder={"Inchecken"} type="text" />
+            <input onClick={props.onClick} className="dateInput" value={props.value} readOnly={true} placeholder={t('apartments.check-in')} type="text" />
         </div>
     )
 }
 
 const CustomCheckOutDate = (props) => {
+    const { t } = useTranslation();
     return (
         <div className="wrapper">
             <i onClick={props.onClick} aria-hidden="true" className="bi bi-calendar3"></i>
-            <input onClick={props.onClick} className="dateInput" value={props.value} readOnly={true} placeholder={"Uitchecken"} type="text" />
+            <input onClick={props.onClick} className="dateInput" value={props.value} readOnly={true} placeholder={t('apartments.check-out')} type="text" />
         </div>
     )
 }
@@ -39,7 +40,7 @@ const Apartments = () => {
 
     const [startDate, setStartDate] = useState();
     const [endDate, setEndDate] = useState();
-    var date = new Date();
+    // var date = new Date();
 
     var tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
@@ -73,7 +74,6 @@ const Apartments = () => {
 
         age.push({ value: i, label: '' + i })
     }
-    const [checkOutDisabled, setCheckOutDisabled] = useState(true)
 
     const [adults, setAdults] = useState(1);
     const [childs, setChilds] = useState(0);
@@ -137,10 +137,10 @@ const Apartments = () => {
             <div className="scrollSection">
                 <Row>
                     <Col className="leftTop rightBorder" xs={{ span: 12, order: 1 }} md={{ span: 3, order: 1 }}>
-                        <h4 className="topText">Datum</h4>
+                        <h4 className="topText">{t('apartments.date')}</h4>
                     </Col>
                     <Col className="rightTop" xs={{ span: 12, order: 3 }} md={{ span: 9, order: 2 }}>
-                        <h4 className="topText">Onze appartementen</h4>
+                        <h4 className="topText">{t('apartments.our_apartments')}</h4>
                     </Col>
 
                     <Col className="rightBorder" xs={{ span: 12, order: 2 }} md={{ span: 3, order: 3 }}>
@@ -148,7 +148,7 @@ const Apartments = () => {
                             {error ? <div className="error"><p>{errorMessage}</p></div> : <div className="noError"></div>}
                             <DatePicker
                                 selected={startDate}
-                                onChange={(date) => (setCheckOutDisabled(false), setStartDate(date), setMinimumDate(tomorrow.setDate(date.getDate() + 1)))}
+                                onChange={(date) => (setStartDate(date), setMinimumDate(tomorrow.setDate(date.getDate() + 1)))}
                                 selectsStart
                                 startDate={startDate}
                                 endDate={endDate}
@@ -159,7 +159,6 @@ const Apartments = () => {
                                 selected={endDate}
                                 onChange={(date) => setEndDate(date)}
                                 selectsEnd
-                                disabled={checkOutDisabled}
                                 startDate={startDate}
                                 endDate={endDate}
                                 minDate={minimumDate}
@@ -167,38 +166,42 @@ const Apartments = () => {
                             />
                             <Row className="persons">
                                 <Col xs={12} className="personsInput">
-                                    <Select placeholder={"Adults"} styles={style} options={optionsAdult} onChange={(choice) => setAdults(choice.value)} />
+                                    <Select placeholder={t('apartments.adults')} styles={style} options={optionsAdult} onChange={(choice) => setAdults(choice.value)} />
                                 </Col>
                                 <Col xs={12} className="personsInput">
-                                    <Select placeholder={"Child"} styles={style} options={optionsChild} onChange={(choice) => (howManyChild(choice.value))} />
+                                    <Select placeholder={t('apartments.childs')} styles={style} options={optionsChild} onChange={(choice) => (howManyChild(choice.value))} />
                                 </Col>
                             </Row>
                             {Array.from(Array(childs), (_, i) => {
                                 return <Row key={i + 1} className="persons">
                                     <Col xs={4} className="personsInput">
-                                        <p id="child-location">Kind {i + 1}:</p>
+                                        <p id="child-location">{t('apartments.child')} {i + 1}:</p>
                                     </Col>
                                     <Col xs={8} className="personsInput">
-                                        <Select placeholder={"Age"} styles={style} options={age} onChange={(choice) => editAge(i, choice.value)} />
+                                        <Select placeholder={t('apartments.age')} styles={style} options={age} onChange={(choice) => editAge(i, choice.value)} />
                                     </Col>
                                 </Row>
                             })}
                             <Row className="persons">
-                                <button className="buttonBook" onClick={checkData}>Zoeken</button>
+                                <button className="buttonBook" onClick={checkData}>{t('apartments.search')}</button>
                             </Row>
 
                         </div>
                     </Col>
                     <Col xs={{ span: 12, order: 4 }} md={{ span: 9, order: 4 }}>
                         <Row>
-                            <Col className="borderBottom" sm={12}>
+                            <Col className="borderBottom" sm={12} onClick={() => { handleNavigation(1) }}>
                                 <div className="apartmentDiv">
                                     <Row>
                                         <Col md={6}>
                                             <img className="roomImages" src={room_1} alt={"Room 1"} />
                                         </Col>
                                         <Col md={3} className="d-none d-md-block">
-                                            <h4>Serfaus</h4>
+                                            <h4>Zwölferkopf</h4>
+                                            <p><i class="bi bi-person-fill" /> 4 personen</p>
+                                            <p><i class="bi bi-wifi" /> Gratis WiFi</p>
+                                            <p><i class="bi bi-egg" /> Ontbijt</p>
+                                            <p><i class="bi bi-fan" /> Airco</p>
                                         </Col>
                                         <Col md={3}>
                                             <h4>Serfaus</h4>
@@ -207,13 +210,17 @@ const Apartments = () => {
                                 </div>
                             </Col>
                             <Col className="borderBottom" sm={12}>
-                                <div className="apartmentDiv">
+                                <div className="apartmentDiv" onClick={() => { handleNavigation(2) }}>
                                     <Row>
                                         <Col md={6}>
                                             <img className="roomImages" src={room_2} alt={"Room 2"} />
                                         </Col>
                                         <Col md={3} className="d-none d-md-block">
-                                            <h4>Serfaus</h4>
+                                            <h4>Hexenkopf</h4>
+                                            <p><i class="bi bi-person-fill" /> 4 personen</p>
+                                            <p><i class="bi bi-wifi" /> Gratis WiFi</p>
+                                            <p><i class="bi bi-egg" /> Ontbijt</p>
+                                            <p><i class="bi bi-fan" /> Airco</p>
                                         </Col>
                                         <Col md={3}>
                                             <h4>Serfaus</h4>
@@ -228,10 +235,14 @@ const Apartments = () => {
                                             <img className="roomImages" src={room_3} alt={"Room 3"} />
                                         </Col>
                                         <Col md={3} className="d-none d-md-block">
-                                            <h4>Serfaus</h4>
+                                            <h4>Alpkopf</h4>
+                                            <p><i class="bi bi-person-fill" /> 4 personen</p>
+                                            <p><i class="bi bi-wifi" /> Gratis WiFi</p>
+                                            <p><i class="bi bi-egg" /> Ontbijt</p>
+                                            <p><i class="bi bi-fan" /> Airco</p>
                                         </Col>
                                         <Col md={3}>
-                                            <h4>Serfaus</h4>
+                                            <p>Vanaf 49 euro per week</p>
                                         </Col>
                                     </Row>
                                 </div>

@@ -1,8 +1,13 @@
 import React from "react";
-import { Route, Link, Routes, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 const Apartment = () => {
     const params = useParams();
+
+
+    // const getData = () => {
+    // }
+
     return (
         <div>
             <h1>{params.roomId}</h1>

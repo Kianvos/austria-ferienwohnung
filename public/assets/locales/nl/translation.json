@@ -35,7 +35,8 @@
 		"apartments": "Appartementen",
 		"logo": "nl",
 		"summer": "Zomer",
-		"winter": "Winter"
+		"winter": "Winter",
+		"about-me": "Over mij"
 	},
 	"welcome": {
 		"title": "Welkom bij {{website}}"
@@ -78,5 +79,16 @@
 			"title": "Funpark",
 			"text_1": "Voor kinderen en tieners is er een klein pretpark in Fiss. Er zijn hier een paar grotere attracties: \"Fisser Flitzer\" een zomerrodelbaan, de \"Fisser Flieger\" en de \"Skyswing\". Er zijn ook een paar kleinere attracties die leuk zijn: tubingbaan, XXL-zandbak, Berta's luchtglijbaan, XXL-trampoline, duikplatform, slacklinepark en de sneeuwfabriek."
 		}
+	},
+	"apartments": {
+		"our_apartments": "Onze appartementen",
+		"date": "Datum",
+		"check-in": "Inchecken",
+		"check-out": "Uitchecken",
+		"adults": "Volwassenen",
+		"child": "Kind",
+		"age": "Leeftijd",
+		"childs": "Kinderen",
+		"search": "Zoeken"
 	}
 }

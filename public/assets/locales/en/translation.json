@@ -37,7 +37,8 @@
 		"apartments": "Apartments",
 		"logo": "gb",
 		"summer": "Summer",
-		"winter": "Winter"
+		"winter": "Winter",
+		"about-me": "About me"
 	},
 	"welcome": {
 		"title": "Welcome to {{website}}"
@@ -80,5 +81,16 @@
 			"title": "Fun park",
 			"text_1": "For children and teenagers there is a small amusement park in Fiss. There are a few bigger attractions here: \"Fisser Flitzer\" an summer toboggan run, the \"Fisser Flieger\" and the \"Skyswing\". There are also a few smaller attractions: tubing track, XXL sandbox, Berta's air slide, XXL trampoline, diving platform, slackline park and the snow factory."
 		}
+	},
+	"apartments": {
+		"our_apartments": "Our apartments",
+		"date": "Date",
+		"check-in": "Check in",
+		"check-out": "Check out",
+		"adults": "Adults",
+		"child": "Child",
+		"age": "Age",
+		"childs": "Childs",
+		"search": "Search"
 	}
 }

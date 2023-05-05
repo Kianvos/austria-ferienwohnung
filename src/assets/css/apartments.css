@@ -103,7 +103,9 @@ i.bi-calendar3 {
     margin: 60px auto;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
+
 
 
 .borderBottom {

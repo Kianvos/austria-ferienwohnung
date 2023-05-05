@@ -37,7 +37,8 @@
 		"apartments": "Wohnungen",
 		"logo": "de",
 		"summer": "Sommer",
-		"winter": "Winter"
+		"winter": "Winter",
+		"about-me": "Über mich"
 	},
 	"welcome": {
 		"title": "Willkommen zu {{website}}"
@@ -80,5 +81,16 @@
 			"title": "Funpark",
 			"text_1": "Für Kinder und Jugendliche gibt es in Fiss einen kleinen Freizeitpark. Hier gibt es ein paar größere Attraktionen: \"Fisser Flitzer\" die Sommerrodelbahn, den \"Fisser Flieger\" und den \"Skyswing\". Dazu kommen ein paar kleinere Attraktionen: Tubingbahn, XXL-Sandkasten, Bertas Luftrutsche, XXL-Trampolin, Sprungturm, Slackline-Park und die Schneefabrik."
 		}
+	},
+	"apartments": {
+		"our_apartments": "Unsere Wohnungen",
+		"date": "Datum",
+		"check-in": "Einchecken",
+		"check-out": "Auschecken",
+		"adults": "Erwachsene",
+		"child": "Kind",
+		"age": "Alter",
+		"childs": "Kinder",
+		"search": "Suchen"
 	}
 }

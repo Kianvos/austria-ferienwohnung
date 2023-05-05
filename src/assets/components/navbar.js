@@ -49,7 +49,7 @@ function NavigationBar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto rightNav">
                         <Nav.Item className='navItemRight'>
-                            <Nav.Link className={"underline" + (url === "/info" ? " active" : "")} href="#">Over mij</Nav.Link>
+                            <Nav.Link className={"underline" + (url === "/info" ? " active" : "")} href="/info">{t('navbar.about-me')}</Nav.Link>
                         </Nav.Item>
                         <Nav.Item className='navItemRight'>
                             <Nav.Link className={"underline" + (url === "/apartments" ? " active" : "")} href="/apartments">{t('navbar.apartments')}</Nav.Link>
