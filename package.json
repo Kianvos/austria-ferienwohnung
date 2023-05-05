@@ -1,6 +1,7 @@
 {
   "name": "booking-austria",
   "version": "0.1.0",
+  "homepage": "https://kianvos.github.io/austria-ferienwohnung/",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.12.1",
