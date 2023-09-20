@@ -35,7 +35,8 @@ function NavigationBar() {
     ]
 
     const {t} = useTranslation('common')
-    const baseUrl = process.env.PUBLIC_URL;
+    const baseUrl = '/';
+    // const baseUrl = process.env.PUBLIC_URL;
 
     return (
         <Navbar expand="md" className="shadow p-3 bg-white">
