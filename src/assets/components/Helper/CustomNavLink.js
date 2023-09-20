@@ -7,7 +7,7 @@ function CustomNavLink({ to, children }) {
 
     const baseUrl = process.env.PUBLIC_URL;
 
-    const absoluteTo = location.pathname === to ? to : baseUrl + to;
+    const absoluteTo = baseUrl + to;
 
     return (
         <Nav.Link className={"underline" + (to === absoluteTo ? " active" : "")}
