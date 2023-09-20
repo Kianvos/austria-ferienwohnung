@@ -11,7 +11,9 @@ const Apartment = () => {
     return (
         <div>
             <h1>{params.roomId}</h1>
-            <h2>Test</h2>
+            <br/>
+            <br/>
+            <h2>Nog niet beschikbaar!</h2>
         </div>
     )
 }
