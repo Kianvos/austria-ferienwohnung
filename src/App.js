@@ -23,8 +23,8 @@ function BasicLayout() {
 
 function App() {
   return (
-    <BrowserRouter>
-    {/*<BrowserRouter basename={process.env.PUBLIC_URL}>*/}
+    // <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<BasicLayout />}>
           <Route index element={<Homepage />} />

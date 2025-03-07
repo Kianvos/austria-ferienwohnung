@@ -5,8 +5,8 @@ import { useLocation } from 'react-router-dom';
 function CustomNavLink({ to, children }) {
     const location = useLocation();
 
-    // const baseUrl = process.env.PUBLIC_URL;
-    const baseUrl = '/';
+    const baseUrl = process.env.PUBLIC_URL;
+    // const baseUrl = '/';
 
 
     const absoluteTo = baseUrl + to;
