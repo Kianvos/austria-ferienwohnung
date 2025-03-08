@@ -36,14 +36,14 @@ function NavigationBar() {
 
     const {t} = useTranslation('common')
     // const baseUrl = '/';
-    const baseUrl = process.env.PUBLIC_URL;
+    const baseUrl = process.env.PUBLIC_URL || '/';
 
     return (
         <Navbar expand="md" className="shadow p-3 bg-white">
             <Container>
                 <div></div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                <Navbar.Brand className="navbar-brand" href={`${baseUrl}/`}>
+                <Navbar.Brand className="navbar-brand" href={`${baseUrl}`}>
                     <div className='logoNavbar'>
                         <img className='logo' src={logo} alt="logo"/>
                     </div>
